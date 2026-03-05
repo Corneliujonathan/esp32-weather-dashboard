@@ -49,15 +49,15 @@ const char* ssid = "YOUR_WIFI_NAME";
 const char* password = "YOUR_WIFI_PASSWORD";
 ```
 5️⃣ Configure OpenWeatherMap API
-Create a free API key from:
-https://openweathermap.org/api
+   Create a free API key from:
+   https://openweathermap.org/api
 ```C++
 const char* apiKey = "YOUR_OPENWEATHER_API_KEY";
 ```
 6️⃣ Configure ThingSpeak Channel
-Create a channel on:
-https://thingspeak.com
-Copy your Write API Key and insert in the code.
+    Create a channel on:
+    https://thingspeak.com
+    Copy your Write API Key and insert in the code.
 ```C++
 String writeAPIKey = "YOUR_THINGSPEAK_WRITE_KEY";
 ```
