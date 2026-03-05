@@ -1,5 +1,5 @@
-# esp32-weather-dashboard
-An IoT project using ESP32 that retrieves real-time weather data from the OpenWeatherMap API and uploads it to the ThingSpeak Cloud Dashboard for visualization and analysis.
+# esp32*weather*dashboard
+An IoT project using ESP32 that retrieves real*time weather data from the OpenWeatherMap API and uploads it to the ThingSpeak Cloud Dashboard for visualization and analysis.
 
 This project demonstrates WiFi communication, REST API integration, JSON parsing, and cloud data logging using ESP32.
 ## Project Overview
@@ -7,17 +7,17 @@ The ESP32 connects to WiFi and periodically fetches weather information such as 
 
 This project shows how IoT devices can interact with cloud platforms without external sensors, using public APIs.
 ### Features
--🌐 Connects ESP32 to WiFi network
+*🌐 Connects ESP32 to WiFi network
 
--☁ Fetches live weather data using OpenWeatherMap API
+*☁ Fetches live weather data using OpenWeatherMap API
 
--📊 Uploads data to ThingSpeak Cloud Platform
+*📊 Uploads data to ThingSpeak Cloud Platform
 
--🔎 Parses JSON response using ArduinoJson library
+*🔎 Parses JSON response using ArduinoJson library
 
--🖥 Displays results in Serial Monitor
+*🖥 Displays results in Serial Monitor
 
--📡 Fully wireless operation (no GPIO sensors required)
+*📡 Fully wireless operation (no GPIO sensors required)
 
 #### Setup
 1️⃣ Install Required Software
@@ -32,7 +32,7 @@ Git (optional for version control)
 
 2️⃣ Clone the Repository
 ```Bash
-git clone https://github.com/yourusername/esp32-weather-dashboard.git
+git clone https://github.com/yourusername/esp32*weather*dashboard.git
 ```
 3️⃣ Install Required Libraries
 
@@ -49,7 +49,8 @@ const char* ssid = "YOUR_WIFI_NAME";
 const char* password = "YOUR_WIFI_PASSWORD";
 ```
 5️⃣ Configure OpenWeatherMap API
-[Create a free API key from:](https://openweathermap.org/api)
+Create a free API key from:
+(https://openweathermap.org/api)
 ```C++
 const char* apiKey = "YOUR_OPENWEATHER_API_KEY";
 ```
@@ -81,9 +82,9 @@ Upload successful
 📊 Cloud Dashboard
 The ESP32 sends weather data to ThingSpeak, which generates graphs like:
 
--Temperature vs Time
+*Temperature vs Time
 
--Humidity vs Time
+*Humidity vs Time
 Example dashboard:
 ```
 ThingSpeak Channel
@@ -94,12 +95,12 @@ Field 2 → Humidity
 🔮 Future Improvements
 Possible extensions for this project:
 
--Add BME280 or DHT22 sensor for local weather measurement
+*Add BME280 or DHT22 sensor for local weather measurement
 
--Create a web dashboard hosted on ESP32
+*Create a web dashboard hosted on ESP32
 
--Implement data logging and analytics
+*Implement data logging and analytics
 
--Use MQTT instead of HTTP
+*Use MQTT instead of HTTP
 
--Build a mobile IoT dashboard
+*Build a mobile IoT dashboard
