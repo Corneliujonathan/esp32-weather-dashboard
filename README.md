@@ -7,17 +7,17 @@ The ESP32 connects to WiFi and periodically fetches weather information such as 
 
 This project shows how IoT devices can interact with cloud platforms without external sensors, using public APIs.
 ### Features
-*🌐 Connects ESP32 to WiFi network
+* 🌐 Connects ESP32 to WiFi network
 
-*☁ Fetches live weather data using OpenWeatherMap API
+* ☁ Fetches live weather data using OpenWeatherMap API
 
-*📊 Uploads data to ThingSpeak Cloud Platform
+* 📊 Uploads data to ThingSpeak Cloud Platform
 
-*🔎 Parses JSON response using ArduinoJson library
+* 🔎 Parses JSON response using ArduinoJson library
 
-*🖥 Displays results in Serial Monitor
+* 🖥 Displays results in Serial Monitor
 
-*📡 Fully wireless operation (no GPIO sensors required)
+* 📡 Fully wireless operation (no GPIO sensors required)
 
 #### Setup
 1️⃣ Install Required Software
@@ -50,12 +50,13 @@ const char* password = "YOUR_WIFI_PASSWORD";
 ```
 5️⃣ Configure OpenWeatherMap API
 Create a free API key from:
-(https://openweathermap.org/api)
+https://openweathermap.org/api
 ```C++
 const char* apiKey = "YOUR_OPENWEATHER_API_KEY";
 ```
 6️⃣ Configure ThingSpeak Channel
-[Create a channel on:](https://thingspeak.com)
+Create a channel on:
+https://thingspeak.com
 Copy your Write API Key and insert in the code.
 ```C++
 String writeAPIKey = "YOUR_THINGSPEAK_WRITE_KEY";
@@ -82,9 +83,9 @@ Upload successful
 📊 Cloud Dashboard
 The ESP32 sends weather data to ThingSpeak, which generates graphs like:
 
-*Temperature vs Time
+* Temperature vs Time
 
-*Humidity vs Time
+* Humidity vs Time
 Example dashboard:
 ```
 ThingSpeak Channel
@@ -95,12 +96,12 @@ Field 2 → Humidity
 🔮 Future Improvements
 Possible extensions for this project:
 
-*Add BME280 or DHT22 sensor for local weather measurement
+* Add BME280 or DHT22 sensor for local weather measurement
 
-*Create a web dashboard hosted on ESP32
+* Create a web dashboard hosted on ESP32
 
-*Implement data logging and analytics
+* Implement data logging and analytics
 
-*Use MQTT instead of HTTP
+* Use MQTT instead of HTTP
 
-*Build a mobile IoT dashboard
+* Build a mobile IoT dashboard
