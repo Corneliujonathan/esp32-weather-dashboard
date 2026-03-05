@@ -55,9 +55,13 @@ const char* password = "YOUR_WIFI_PASSWORD";
 const char* apiKey = "YOUR_OPENWEATHER_API_KEY";
 ```
 6️⃣ Configure ThingSpeak Channel
+
     Create a channel on:
+    
     https://thingspeak.com
+    
     Copy your Write API Key and insert in the code.
+    
 ```C++
 String writeAPIKey = "YOUR_THINGSPEAK_WRITE_KEY";
 ```
